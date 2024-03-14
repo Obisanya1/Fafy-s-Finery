@@ -1,0 +1,71 @@
+body{
+    padding: 0px 30px 0px 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -30px;
+}
+
+nav .pages ul {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+}
+
+article {
+    display: flex;
+    align-items: center;
+}
+
+article .firstpart h1{
+font-family: BeOkayW05-DisplayMedium;
+font-size: 85px;
+font-weight: 500;
+line-height: 91px;
+letter-spacing: -0.01em;
+text-align: left;
+width: 771px;
+
+}
+
+article .secondpart h4{
+font-family: Figtree;
+font-size: 30px;
+font-weight: 600;
+line-height: 75px;
+letter-spacing: 0.01em;
+text-align: left;
+}
+
+article .image-frame img {
+    margin-top: 100rem;
+}
+
+.woman {
+    position: absolute;
+    right: 10;
+    top: 200;
+}
+
+.bg-rectangle {
+    position: absolute;
+    right: 0px;
+top: 500px;
+z-index: -1;
+height: 635px;
+}
+
+.arrow2 {
+    margin-top: 5rem;
+}
+
+.arrow1 {
+    position: absolute;
+    top: 200px;
+    right: 40px;
+}
